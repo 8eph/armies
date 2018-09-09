@@ -1,0 +1,15 @@
+weapons:
+  - {name: 'small rock', speed: 1, damage: 4, type: 'light'}
+  - {name: 'stone club', speed: 0.8, damage: 6, type: 'medium'}
+  - {name: 'mythril sword', speed: 1.3, damage: 7, type: 'medium'}
+  - {name: 'dragon tooth', speed: 0.4, damage: 20, type: 'heavy'}
+armor:
+  - {name: 'leather', type: 'light', value: 1}
+  - {name: 'chain mail', type: 'medium', value: 3}
+  - {name: 'breast plate', type: 'heavy', value: 4}
+  - {name: 'full plate', type: 'heavy', value: 6}
+units:
+  - {name: 'foot soldier', hitpoints: 12, weapon: 'small rock', armor: 'leather'}
+  - {name: 'berserker', hitpoints: 15, weapon: 'stone club', armor: 'leather'}
+  - {name: 'havel', hitpoints: 50, weapon: 'dragon tooth', armor: 'full plate'}
+  - {name: 'champion', hitpoints: 20, weapon: 'mythril sword', armor: 'breast plate'}
